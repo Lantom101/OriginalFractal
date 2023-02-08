@@ -1,5 +1,5 @@
 PImage img;
-int i = 200;
+int i = 350;
 boolean increase = true;
 public void setup(){
   size(500,500);
@@ -24,9 +24,9 @@ public void myFractal(int x, int y, int siz){
 }
 
 public void checkSize(){
-  if (i >= 300 && increase == true){
+  if (i >= 450 && increase == true){
     increase = false;
-  } else if (i <= 200 && increase == false){
+  } else if (i <= 250 && increase == false){
     increase = true;
   }
   if (increase == true){
