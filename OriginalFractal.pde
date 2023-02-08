@@ -8,7 +8,7 @@ public void setup(){
 }
 
 public void draw(){
-  background(0);
+  background(135, 206, 250);
   checkSize();
   myFractal(250,250,i);
 }
