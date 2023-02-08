@@ -26,7 +26,7 @@ public void myFractal(int x, int y, int siz){
 public void checkSize(){
   if (i >= 300 && increase == true){
     increase = false;
-  } else if (i <= 100 && increase == false){
+  } else if (i <= 200 && increase == false){
     increase = true;
   }
   if (increase == true){
