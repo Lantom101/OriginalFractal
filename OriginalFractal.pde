@@ -14,13 +14,13 @@ public void draw(){
 }
 
 public void myFractal(int x, int y, int siz){
-  if (siz > 10){
+  if (siz > 8){
     myFractal(x-siz/2,y-siz/2,siz/2);
     myFractal(x+siz/2,y-siz/2,siz/2);
     myFractal(x-siz/2,y+siz/2,siz/2);
     myFractal(x+siz/2,y+siz/2,siz/2);
   }
-  image(img,x,y,siz/2,siz/2);
+  image(img,x,y,(siz/4)*3,(siz/4)*3);
 }
 
 public void checkSize(){
