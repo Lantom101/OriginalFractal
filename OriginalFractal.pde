@@ -20,7 +20,7 @@ public void myFractal(int x, int y, int siz){
     myFractal(x-siz/2,y+siz/2,siz/2);
     myFractal(x+siz/2,y+siz/2,siz/2);
   }
-  image(img,x,y,(siz/4)*3,(siz/4)*3);
+  image(img, x, y, siz/2, siz/2);
 }
 
 public void checkSize(){
